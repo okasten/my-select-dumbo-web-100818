@@ -5,10 +5,8 @@ def my_select(collection)
   collected = yield collection[i]
   if collected == true 
     selected << collection[i]
-    i += 1
-  else 
-    i += 1
-  end 
+  end
+  i += 1
  end 
  return selected
 end
