@@ -4,6 +4,8 @@ def my_select(collection)
   selected = yield collection[i]
   if selected == true 
     return collection[i]
+  else 
+    i += 1
   end 
  end 
 end
